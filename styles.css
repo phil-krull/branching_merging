@@ -4,10 +4,15 @@
 	font-family: "Tahoma"
 }
 #container{
-	width: 970px;
+	width: 600px;
 	margin-left: 20px;
 	height: auto;
+	padding: 5px;
+	background-color: black;
 }
+	header{
+		color: white;
+	}
 	header h1{
 	    margin-top:15px;
 	}
@@ -17,8 +22,12 @@
 	    text-align: justify;
 	}
 	#images{
-		width: 200px;
+		width: 600px;
+		display: inline-block;
 	}
-	#images img:first-child{
-		width: 200px;
+	#images img{
+		width: 290px;
+		height: 200px;
+		border: 3px solid grey;
+		vertical-align: center;
 	}
